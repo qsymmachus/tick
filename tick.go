@@ -26,6 +26,7 @@ func main() {
 			duration = duration - (1 * time.Second)
 		case <-ding:
 			fmt.Printf("\033[2K\r%s", duration)
+			fmt.Print("\a")
 			fmt.Println("\nDING!")
 			return
 		}
