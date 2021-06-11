@@ -7,7 +7,7 @@ Tick is a simple timer utility for the command line. Think of it as an improved 
 The only dependency is a [Go installation](https://golang.org/doc/install). To install tick, run this command:
 
 ```
-go install github.com/qsymmachus
+go install github.com/qsymmachus/tick
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Usage of tick:
     	Number of seconds the timer should run.
 ```
 
-You can use tick as general purpose timer. By default, tick displays a countdown and ring your terminal bell when it's complete.
+You can use tick as general purpose timer. By default, tick displays a countdown and rings your terminal bell when it's complete.
 
 Run timer for 25 minutes and 10 seconds:
 
