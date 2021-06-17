@@ -38,7 +38,7 @@ You can suppress the countdown output with the `-q` flag. It will still ring the
 Let's send this tick to the background with `&` so we can run other commands while it runs:
 
 ```
-tick -m 5 &
+tick -m 5 -q &
 ```
 
 If you want to suppress the countdown _and_ the bell, use the `-qq` flag. In this mode, tick works the same way as `sleep`:
